@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Business Card Creator</title>
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+	<div id="wrap">
+	<header><h1>Demo: Make a Business Card!</h1></header>
+	<div class="cardContainer">
+		<canvas width="500" height="275">
+		</canvas>
+	</div><!--container to hold the generated card-->
+	<div class="optionMenu"><!--contains options for the card-->
+		<ul>
+		<li><label for="name">Your Name:</label>
+		<input type="text" id="name" name="name"></li>
+		<li><label for="business">Your Business:</label>
+		<input type="text" id="business" name="business"></li>
+		<li><label for="tagline">Business Tagline:</label>
+		<input type="text" id="tagline" name="tagline"></li>
+	</div>
+		<button id="download">Download</button>
+	</div>
+	<script src="main.js" defer></script>
+</body>
+</html>

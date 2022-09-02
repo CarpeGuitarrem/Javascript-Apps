@@ -1,0 +1,35 @@
+html,body {
+	height:100%;
+}
+
+label {
+	font-family:'Georgia','Garamond',serif;
+}
+
+input {
+	font-family:'Lucida','Trebuchet MS',sans-serif;
+}
+
+#wrap {
+	width:50em;
+	position:relative;
+	margin:0px auto;
+	padding-top:5em;
+	padding-left:12em;
+	height:auto;
+	min-height:100%;
+	background-color:rgb(240,240,255);
+}
+
+.cardContainer {
+	min-height:20em;
+}
+
+.optionMenu ul {
+	list-style-type:none;
+	padding:.2em;
+}
+
+.optionMenu ul li {
+	padding:.2em;
+}
